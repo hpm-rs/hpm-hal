@@ -12,7 +12,7 @@ include = ["src/*", "build.rs", "Cargo.toml", "doc.md"]
 version = "0.0.1"
 
 [dependencies]
-hpm-ral = { path = "../hpm-ral" }
+hpm-ral = { git = "https://github.com/hpm-rs/hpm-ral" }
 embedded-hal = "0.2"
 nb = "1.0"
 
